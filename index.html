@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>CapBudget — retour de connexion bancaire</title>
+<style>
+  body { font-family: system-ui, sans-serif; background: #0b1220; color: #e5e7eb; display: flex; align-items: center;
+    justify-content: center; min-height: 100vh; margin: 0; padding: 24px; text-align: center; }
+  .card { max-width: 360px; }
+  a.button { display: inline-block; margin-top: 16px; padding: 12px 20px; background: #16a34a; color: #fff;
+    text-decoration: none; border-radius: 8px; font-weight: 600; }
+  p { line-height: 1.5; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <p>Retour vers CapBudget…<br><span style="opacity:.7">Returning to CapBudget…</span></p>
+    <a class="button" id="fallback" href="#">Ouvrir CapBudget</a>
+  </div>
+  <script>
+    // Static bounce page only: this page holds no logic beyond forwarding the
+    // browser back to the app via its custom URL scheme, and no data ever
+    // stays here — the whole query string (Enable Banking's `code`, or an
+    // error) is passed straight through untouched.
+    var target = 'fr.capbudget.app://bank-callback' + window.location.search;
+    document.getElementById('fallback').href = target;
+    // iOS Safari can block a silent redirect to a custom scheme without a
+    // user gesture, hence the visible fallback button above.
+    window.location.href = target;
+  </script>
+</body>
+</html>

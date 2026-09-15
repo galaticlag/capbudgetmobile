@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CapBudget — Privacy Policy</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body { max-width: 44rem; margin: 0 auto; padding: 2rem 1.25rem 4rem;
+        font: 16px/1.65 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+      .brand { display: flex; align-items: center; gap: .6rem; margin-bottom: .5rem; }
+      .brand-mark { width: 28px; height: 28px; border-radius: 7px; background: #0C3927; flex: none; }
+      .brand-name { font-weight: 700; letter-spacing: -.01em; }
+      h1 { font-size: 1.6rem; margin: .3rem 0 0; }
+      h2 { font-size: 1.15rem; margin-top: 2rem; }
+      code { background: rgba(128,128,128,.15); padding: .1em .35em; border-radius: 4px; }
+      .updated { color: #666; font-size: .9rem; }
+      .lede { font-size: 1.05rem; }
+    </style>
+  </head>
+  <body>
+    <div class="brand"><span class="brand-mark"></span><span class="brand-name">CapBudget</span></div>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: 2026-09-15</p>
+
+    <p class="lede">CapBudget is a <strong>local-first</strong> budgeting app.
+      The short version: <strong>nothing leaves your device, and we collect
+      nothing.</strong></p>
+
+    <h2>What data the app handles</h2>
+    <p>Everything you put into CapBudget — bank transactions, account references,
+      categories, categorization rules, budget targets, and app settings — is
+      stored <strong>only</strong> in a single SQLite database on your device
+      (<code>household.sqlite</code>), in the app's own private storage. There is
+      <strong>no account, no login, and no CapBudget server</strong>.</p>
+
+    <h2>What we collect</h2>
+    <p><strong>Nothing.</strong> No analytics or usage tracking, no advertising or
+      advertising identifiers, no crash or diagnostics reporting, no third-party
+      SDKs that phone home, no network calls to any CapBudget-operated service
+      (there is none). The app functions fully offline.</p>
+
+    <h2>CSV imports</h2>
+    <p>When you import a bank CSV export, the file is parsed <strong>on your
+      device</strong>. It is not uploaded anywhere and is not retained by the app
+      unless you choose &ldquo;keep&rdquo; during import.</p>
+
+    <h2>Backups</h2>
+    <p>You can export a backup from <strong>Settings</strong>. The backup is a
+      file <strong>you</strong> control — CapBudget does not upload it and has no
+      access to wherever you save it.</p>
+
+    <h2>Permissions</h2>
+    <p>The app requests no location, contacts, camera, microphone, or other
+      sensitive permissions — only its own private storage.</p>
+
+    <h2>Bank-account references</h2>
+    <p>An account number/IBAN from your CSV is stored to group transactions by
+      account, kept only on your device. In the UI only the last 4 characters
+      are shown.</p>
+
+    <h2>Children</h2>
+    <p>CapBudget is a general-purpose finance tool and is not directed at
+      children.</p>
+
+    <h2>Changes</h2>
+    <p>An updated policy will be published at this URL with a new date above.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about privacy: <strong>capbudget-contact@pixeon.fr</strong></p>
+  </body>
+</html>
