@@ -6,7 +6,7 @@ purpose. Two pages:
 
 - **`index.html`** — the OAuth/PSD2 consent redirect bounce page for
   CapBudget's mobile Open Banking (Enable Banking) integration. It holds no
-  logic beyond forwarding the browser to the app's own `fr.capbudget.app://`
+  logic beyond forwarding the browser to the app's own `com.capbudget.app://`
   URL scheme — no data is read, stored, or processed here. It exists only
   because Enable Banking requires an `https://` redirect URL and rejects a
   custom app scheme directly. Once GitHub Pages is enabled (Settings → Pages →

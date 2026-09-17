@@ -24,7 +24,7 @@
     // browser back to the app via its custom URL scheme, and no data ever
     // stays here — the whole query string (Enable Banking's `code`, or an
     // error) is passed straight through untouched.
-    var target = 'fr.capbudget.app://bank-callback' + window.location.search;
+    var target = 'com.capbudget.app://bank-callback' + window.location.search;
     document.getElementById('fallback').href = target;
     // iOS Safari can block a silent redirect to a custom scheme without a
     // user gesture, hence the visible fallback button above.
