@@ -1,0 +1,6 @@
+# Repo signing secrets — never commit. Back these up OUTSIDE the repo
+# (see ~/capbudget-keys/ on the machine that generated them).
+keystore.p12
+config.yml
+tmp/
+stats/
