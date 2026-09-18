@@ -1,0 +1,35 @@
+{
+  "name": "CapBudget",
+  "identifier": "galaticlag.capbudgetmobile.sidestore",
+  "subtitle": "Unsigned test builds for SideStore",
+  "description": "Test builds of the CapBudget iOS app, to be re-signed on-device by SideStore.",
+  "iconURL": "https://galaticlag.github.io/capbudgetmobile/capbudget-icon.png",
+  "website": "https://galaticlag.github.io/capbudgetmobile/",
+  "tintColor": "0C3927",
+  "apps": [
+    {
+      "name": "CapBudget",
+      "bundleIdentifier": "com.capbudget.app",
+      "developerName": "galaticlag",
+      "subtitle": "Local-first household budget",
+      "localizedDescription": "Local-first household budgeting. Everything stays on your device.",
+      "iconURL": "https://galaticlag.github.io/capbudgetmobile/capbudget-icon.png",
+      "tintColor": "0C3927",
+      "versions": [
+        {
+          "version": "1.0.1",
+          "buildVersion": "3",
+          "date": "2026-09-18",
+          "downloadURL": "https://github.com/galaticlag/capbudgetmobile/releases/download/sideload-1.0.1/CapBudget-1.0.1-unsigned.ipa",
+          "size": 1269224,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "version": "1.0.1",
+      "versionDate": "2026-09-18",
+      "downloadURL": "https://github.com/galaticlag/capbudgetmobile/releases/download/sideload-1.0.1/CapBudget-1.0.1-unsigned.ipa",
+      "size": 1269224
+    }
+  ],
+  "news": []
+}
