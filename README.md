@@ -16,7 +16,7 @@ page.
 
 ## Pages
 
-Three pages, published via GitHub Pages (Settings → Pages → `main` / `/ (root)`):
+Four pages, published via GitHub Pages (Settings → Pages → `main` / `/ (root)`):
 
 - **`download.html`** — the "Get CapBudget" page above, with a one-tap
   "Add to Obtainium" link (uses Obtainium's `obtainium://app/` deep-link
@@ -33,3 +33,14 @@ Three pages, published via GitHub Pages (Settings → Pages → `main` / `/ (roo
 - **`privacy.html`** — the app's privacy policy, linked from the Play Store /
   App Store listings. Kept in sync manually with the canonical copy in the
   main (private) repo — see that repo's `CLAUDE.md` for the sync checklist.
+- **`support.html`** — the support page (English + French: contact address and
+  a short FAQ on backups, CSV import, rules and data location), used as the
+  *Support URL* of the App Store listing.
+
+## iOS test builds (SideStore)
+
+`apps.json` (+ `capbudget-icon.png`) is an AltStore-format source refreshed by
+CapBudget's CI on every `sideload-*` build; the unsigned IPAs are attached to
+pre-releases in [Releases](https://github.com/galaticlag/capbudgetmobile/releases).
+Add `https://galaticlag.github.io/capbudgetmobile/apps.json` in SideStore →
+Sources. These files are generated — don't edit them by hand.

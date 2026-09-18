@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CapBudget — Support</title>
+    <meta name="description" content="Help and contact for CapBudget, the local-first household budgeting app: backups, CSV import, data and privacy." />
+    <style>
+      :root { color-scheme: light dark; }
+      body { max-width: 44rem; margin: 0 auto; padding: 2rem 1.25rem 4rem;
+        font: 16px/1.65 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+      .brand { display: flex; align-items: center; gap: .6rem; margin-bottom: .5rem; }
+      .brand-mark { width: 28px; height: 28px; border-radius: 7px; background: #0C3927; flex: none; }
+      .brand-name { font-weight: 700; letter-spacing: -.01em; }
+      h1 { font-size: 1.6rem; margin: .3rem 0 0; }
+      h2 { font-size: 1.15rem; margin-top: 2rem; }
+      h3 { font-size: 1rem; margin: 1.4rem 0 .2rem; }
+      p, ol, ul { margin: .4rem 0; }
+      code { background: rgba(128,128,128,.15); padding: .1em .35em; border-radius: 4px; }
+      .updated { color: #666; font-size: .9rem; }
+      .lede { font-size: 1.05rem; }
+      .langs { margin: .8rem 0 0; font-size: .95rem; }
+      .contact { margin: 1rem 0; padding: .9rem 1.1rem; border-radius: 10px;
+        border: 1px solid rgba(128,128,128,.35); background: rgba(12,57,39,.08); }
+      section + section { margin-top: 3.5rem; padding-top: 1rem; border-top: 1px solid rgba(128,128,128,.35); }
+      footer { margin-top: 3rem; font-size: .9rem; }
+    </style>
+  </head>
+  <body>
+    <div class="brand"><span class="brand-mark"></span><span class="brand-name">CapBudget</span></div>
+    <p class="langs"><a href="#en">English</a> · <a href="#fr">Français</a></p>
+
+    <section id="en" lang="en">
+      <h1>Support</h1>
+      <p class="updated">Last updated: 2026-09-18</p>
+      <p class="lede">CapBudget is a small independent app that keeps your budget
+        <strong>on your device only</strong>: no account, no sign-up, no server.
+        Answers to the most common questions are below.</p>
+
+      <div class="contact">
+        <strong>Contact:</strong> <a href="mailto:capbudget-contact@pixeon.fr">capbudget-contact@pixeon.fr</a><br />
+        We do our best to reply within a few days. To help us, tell us your iPhone or
+        iPad model, your iOS version and what you were doing. <strong>Please do not send
+        real bank data or account numbers.</strong>
+      </div>
+
+      <h2>Frequently asked questions</h2>
+
+      <h3>Where is my data stored?</h3>
+      <p>Only on your device, in the app's own private storage. There is no CapBudget
+        account and no CapBudget server, so nobody — including us — can see or recover
+        your data. Details in the <a href="privacy.html">Privacy Policy</a>.</p>
+
+      <h3>How do I back up my data or move to a new phone?</h3>
+      <ol>
+        <li>Open <strong>Settings</strong> → <strong>Backup &amp; restore</strong> →
+          <strong>Download a backup</strong>. You get a <code>.sqlite</code> file: keep it
+          wherever you like (Files, a cloud drive, your computer).</li>
+        <li>On the new device, install CapBudget, open <strong>Settings</strong> →
+          <strong>Backup &amp; restore</strong>, choose the file and tap
+          <strong>Restore from a backup</strong>.</li>
+      </ol>
+      <p>A restore <strong>replaces</strong> everything currently in the app.</p>
+
+      <h3>I deleted the app or lost my phone — can my data be recovered?</h3>
+      <p>Not unless you exported a backup: the data lives only on the device. Download a
+        backup regularly.</p>
+
+      <h3>How do I import my bank's transactions?</h3>
+      <p>Export a <strong>CSV</strong> file from your bank's website, then open the
+        <strong>Import CSV</strong> tab, choose the file, map its columns once, check the
+        preview (duplicates and invalid dates are flagged) and confirm. Nothing is
+        imported until you confirm.</p>
+
+      <h3>Can transactions be categorized automatically?</h3>
+      <p>Yes. In <strong>Reference data</strong> → <strong>Rules</strong>, create rules such
+        as "label contains RENT → Housing / Rent". You can re-apply them to past
+        transactions at any time; transactions you edited by hand are protected unless
+        you explicitly choose to overwrite them.</p>
+
+      <h3>How do I change the language, the theme or the start day of my budget month?</h3>
+      <p>The language button is in the top bar. The theme and the day your budget month
+        starts are in <strong>Settings</strong>. CapBudget is available in English,
+        French, German, Spanish, Portuguese and Italian.</p>
+
+      <h3>How do I remove the sample data?</h3>
+      <p><strong>Settings</strong> → <strong>Sample data</strong> → <strong>Remove sample
+        data</strong>. Only the sample transactions are removed, never your own.</p>
+    </section>
+
+    <section id="fr" lang="fr">
+      <h1>Assistance</h1>
+      <p class="updated">Dernière mise à jour : 2026-09-18</p>
+      <p class="lede">CapBudget est une petite application indépendante qui garde votre
+        budget <strong>uniquement sur votre appareil</strong> : pas de compte, pas
+        d'inscription, pas de serveur. Voici les réponses aux questions les plus courantes.</p>
+
+      <div class="contact">
+        <strong>Contact :</strong> <a href="mailto:capbudget-contact@pixeon.fr">capbudget-contact@pixeon.fr</a><br />
+        Nous faisons de notre mieux pour répondre sous quelques jours. Pour nous aider,
+        indiquez le modèle de votre iPhone ou iPad, votre version d'iOS et ce que vous
+        faisiez. <strong>N'envoyez ni données bancaires réelles ni numéros de compte.</strong>
+      </div>
+
+      <h2>Questions fréquentes</h2>
+
+      <h3>Où sont stockées mes données ?</h3>
+      <p>Uniquement sur votre appareil, dans l'espace privé de l'application. Il n'existe
+        ni compte CapBudget ni serveur CapBudget : personne, nous compris, ne peut voir ou
+        récupérer vos données. Détails dans la
+        <a href="privacy.html">politique de confidentialité</a> (en anglais).</p>
+
+      <h3>Comment sauvegarder mes données ou changer de téléphone ?</h3>
+      <ol>
+        <li>Ouvrez <strong>Paramètres</strong> → <strong>Sauvegarde &amp; restauration</strong>
+          → <strong>Télécharger une sauvegarde</strong>. Vous obtenez un fichier
+          <code>.sqlite</code> à conserver où vous voulez (Fichiers, un cloud, votre
+          ordinateur).</li>
+        <li>Sur le nouvel appareil, installez CapBudget, ouvrez <strong>Paramètres</strong> →
+          <strong>Sauvegarde &amp; restauration</strong>, choisissez le fichier puis
+          <strong>Restaurer depuis une sauvegarde</strong>.</li>
+      </ol>
+      <p>Une restauration <strong>remplace</strong> tout ce qui se trouve dans l'application.</p>
+
+      <h3>J'ai supprimé l'application ou perdu mon téléphone : puis-je récupérer mes données ?</h3>
+      <p>Pas sans sauvegarde exportée : les données n'existent que sur l'appareil.
+        Téléchargez une sauvegarde régulièrement.</p>
+
+      <h3>Comment importer les transactions de ma banque ?</h3>
+      <p>Exportez un fichier <strong>CSV</strong> depuis le site de votre banque, puis
+        ouvrez l'onglet <strong>Import CSV</strong>, choisissez le fichier, associez ses
+        colonnes une seule fois, vérifiez l'aperçu (doublons et dates invalides signalés)
+        et validez. Rien n'est importé avant votre validation.</p>
+
+      <h3>Les transactions peuvent-elles être catégorisées automatiquement ?</h3>
+      <p>Oui. Dans <strong>Référentiel</strong> → <strong>Règles</strong>, créez des règles
+        du type « le libellé contient LOYER → Logement / Loyer ». Vous pouvez les
+        réappliquer au passé à tout moment ; les transactions modifiées à la main sont
+        protégées, sauf si vous choisissez explicitement de les écraser.</p>
+
+      <h3>Comment changer la langue, le thème ou le jour de début de mon mois budgétaire ?</h3>
+      <p>Le bouton de langue se trouve dans la barre du haut. Le thème et le jour de début
+        du mois budgétaire sont dans <strong>Paramètres</strong>. CapBudget est disponible en
+        français, anglais, allemand, espagnol, portugais et italien.</p>
+
+      <h3>Comment supprimer les données d'exemple ?</h3>
+      <p><strong>Paramètres</strong> → <strong>Données de démonstration</strong> →
+        <strong>Effacer les données d'exemple</strong>. Seules les transactions d'exemple
+        sont supprimées, jamais les vôtres.</p>
+    </section>
+
+    <footer>
+      <a href="privacy.html">Privacy Policy / Politique de confidentialité</a>
+    </footer>
+  </body>
+</html>
