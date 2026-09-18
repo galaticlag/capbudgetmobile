@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CapBudget — Download</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --terracotta: #D96F44;
+        --dark: #0C3927;
+      }
+      body {
+        max-width: 40rem; margin: 0 auto; padding: 2rem 1.25rem 4rem;
+        font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      }
+      .brand { display: flex; align-items: center; gap: .6rem; margin-bottom: .5rem; }
+      .brand-mark { width: 28px; height: 28px; border-radius: 7px; background: var(--dark); flex: none; }
+      .brand-name { font-weight: 700; letter-spacing: -.01em; }
+      h1 { font-size: 1.7rem; margin: .3rem 0 .2rem; }
+      .lede { font-size: 1.05rem; color: color-mix(in srgb, currentColor 75%, transparent); margin-bottom: 2rem; }
+      .lede strong { color: inherit; }
+
+      .card {
+        border: 1px solid color-mix(in srgb, currentColor 15%, transparent);
+        border-radius: 14px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+      .card h2 {
+        display: flex; align-items: center; gap: .55rem;
+        font-size: 1.2rem; margin: 0 0 .3rem;
+      }
+      .card .icon { width: 28px; height: 28px; flex: none; }
+      .card p { margin: .5rem 0 1rem; }
+      .card p:last-of-type { margin-bottom: 0; }
+
+      .btn {
+        display: inline-flex; align-items: center; gap: .5rem;
+        background: var(--dark); color: #fff; text-decoration: none;
+        padding: .7rem 1.1rem; border-radius: 10px; font-weight: 600;
+        font-size: .95rem;
+      }
+      .btn:hover { background: color-mix(in srgb, var(--dark) 85%, black); }
+
+      .note {
+        font-size: .88rem; color: color-mix(in srgb, currentColor 65%, transparent);
+        margin-top: .75rem;
+      }
+      footer { margin-top: 2.5rem; font-size: .88rem; color: color-mix(in srgb, currentColor 60%, transparent); }
+      footer a { color: inherit; }
+    </style>
+  </head>
+  <body>
+    <div class="brand"><span class="brand-mark"></span><span class="brand-name">CapBudget</span></div>
+    <h1>Get CapBudget for Android</h1>
+    <p class="lede">CapBudget's source stays private, so it isn't on the Play Store. Use
+      Obtainium below to install the signed app and get notified about updates — no
+      Google account needed.</p>
+
+    <div class="card">
+      <h2>
+        <svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="24" height="24" rx="6" fill="var(--terracotta)"/>
+          <path d="M12 6v9m0 0-3.5-3.5M12 15l3.5-3.5M7 18h10" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Obtainium
+      </h2>
+      <p>Tracks CapBudget's GitHub releases and prompts you to update as soon as a new
+        version is published — closest thing to a Play Store experience.</p>
+      <p>
+        <a class="btn" href="https://apps.obtainium.imranr.dev/redirect?r=obtainium%3A%2F%2Fapp%2F%7B%22id%22%3A%22com.capbudget.app%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fgalaticlag%2Fcapbudgetmobile%22%2C%22author%22%3A%22galaticlag%22%2C%22name%22%3A%22CapBudget%22%7D">
+          Add to Obtainium
+        </a>
+      </p>
+      <p class="note">Don't have Obtainium yet? The link above sends you to get it first,
+        then brings you back to add CapBudget automatically. Obtainium itself is also
+        sideloaded — it isn't on the Play Store either.</p>
+    </div>
+
+    <footer>
+      Prefer to just grab the APK directly? Every release is also attached to
+      <a href="https://github.com/galaticlag/capbudgetmobile/releases">this repo's GitHub
+      Releases</a>. Questions: <strong>capbudget-contact@pixeon.fr</strong> ·
+      <a href="privacy.html">Privacy policy</a>
+    </footer>
+  </body>
+</html>
